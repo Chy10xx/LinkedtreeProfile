@@ -1,0 +1,43 @@
+/* style.css */
+
+h1 {
+    text-align: center;
+    font-family: "Arial";
+}
+
+.center-arial {
+    text-align: center;
+    font-family: "Arial";
+    color: whitesmoke;
+}
+
+.blob {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: azure;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(40, 40, 185);
+    max-width: 20%;
+    margin: 5px auto;
+    font-size: large;
+    font-weight: bold;
+}
+
+.links :hover {
+    background-color: grey;
+}
